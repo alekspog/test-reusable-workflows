@@ -1,0 +1,10 @@
+name: echo 1
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-tests:
+    uses: alekspog/reusable-workflows/.github/workflows/echo.yml@echo/v1.0.0
+    with:
+      text: 1
