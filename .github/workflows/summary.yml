@@ -5,6 +5,6 @@ on:
 
 jobs:
   run-tests:
-    uses: alekspog/reusable-workflows-examples/.github/workflows/summary.yml@summary/v1.0.0
+    uses: alekspog/reusable-workflows-examples/.github/workflows/summary.yml@echo/v1.0.0
     with:
       text: 'my summary'
